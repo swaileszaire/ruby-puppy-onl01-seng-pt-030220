@@ -2,16 +2,15 @@ class Dog
   
   attr_accessor :name 
   
+  @@all = [] 
+  
   def initialize(name)
     @name = name
     self >> @@all 
   end
-    
-  @@all = [] 
-    
-    
+  
   def self.all 
-    @all 
+    @@all 
   end
   
   def self.print_all 
