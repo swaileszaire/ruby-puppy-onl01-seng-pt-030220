@@ -18,7 +18,7 @@ class Dog
   end 
 
   def self.save 
-    self >> @@all 5
+    self >> @@all 
   end
 end
   
